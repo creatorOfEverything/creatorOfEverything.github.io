@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Test</title>
+    <!-- <link rel="stylesheet" href="css/normalize.css"> -->
+    <!-- <link rel="stylesheet" href="css/grid-flex.css"> -->
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <div class="request-header">
+      <div class="request-header__title">
+        <div class="request-header__inner">
+          <div class="request-header__container container">
+            <div class="row">
+              <div class="col-xs-12">
+                <h1>Запросить брошюру</h1>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-xs-12">
+                <span
+                  >Выберите интересующую вас модель и загрузите брошюру, чтобы
+                  посмотреть более подробно.</span
+                >
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="choose-car">
+      <div class="container">
+        <div class="row">
+          <div class="col-xs-12">
+            <div class="choose-car__title">
+              <h2>Выберите автомобиль</h2>
+            </div>
+          </div>
+        </div>
+
+        <div class="row choose-car__container">
+          <div class="col-md-3 choose-car__pointer">
+            <div
+              class="choose-car__model"
+              data-brochure="docs/FullBack_brochure.pdf"
+              data-price="docs/Fullback_price_list.pdf"
+            >
+              <img src="img/model1.jpg" alt="" class="choose-car__img" />
+              <div class="choose-car__name">Fullback</div>
+            </div>
+          </div>
+
+          <div class="col-md-3 choose-car__pointer">
+            <div
+              class="choose-car__model choose-car__model_active"
+              data-brochure="docs/Ducato_brocure.pdf"
+              data-price="docs/ducato-price.pdf"
+            >
+              <img src="img/model2.jpg" alt="" class="choose-car__img" />
+              <div class="choose-car__name">Ducato Фургон</div>
+            </div>
+          </div>
+
+          <div class="col-md-3 choose-car__pointer">
+            <div
+              class="choose-car__model"
+              data-brochure="docs/Ducato_brocure.pdf"
+              data-price="docs/ducato-price.pdf"
+            >
+              <img src="img/model3.jpg" alt="" class="choose-car__img" />
+              <div class="choose-car__name">Ducato Combi</div>
+            </div>
+          </div>
+
+          <div class="col-md-3 choose-car__pointer">
+            <div
+              class="choose-car__model"
+              data-brochure="docs/Ducato_brocure.pdf"
+              data-price="docs/ducato-price.pdf"
+            >
+              <img src="img/model4.jpg" alt="" class="choose-car__img" />
+              <div class="choose-car__name">Ducato Шасси</div>
+            </div>
+          </div>
+
+          <div class="col-md-3 choose-car__pointer">
+            <div
+              class="choose-car__model"
+              data-brochure="docs/Doblo_brochure.pdf"
+              data-price="docs/Fullback_price_list.pdf"
+            >
+              <img src="img/model5.jpg" alt="" class="choose-car__img" />
+              <div class="choose-car__name">Doblò Cargo</div>
+            </div>
+          </div>
+
+          <div class="col-md-3 choose-car__pointer">
+            <div
+              class="choose-car__model"
+              data-brochure="docs/Doblo_brochure.pdf"
+              data-price="docs/Doblo_price_list-august.pdf"
+            >
+              <img src="img/model6.jpg" alt="" class="choose-car__img" />
+              <div class="choose-car__name">Doblò Combi</div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="links-container">
+        <div class="request-docs">
+          <div class="request-docs__inner">
+            <div class="container">
+              <div class="request-docs_center row">
+                <div class="request-docs__btn-container">
+                  <div class="request-docs__btn">
+                    <a href="" target="blank" class="request-docs__brochure"
+                      >Скачать брошюру</a
+                    >
+                  </div>
+                </div>
+                <div class="request-docs__btn-container">
+                  <div class="request-docs__btn">
+                    <a href="" target="blank" class="request-docs__price"
+                      >Скачать прайс-лист</a
+                    >
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- <ol class="breadcrumb">
+            <li class="breadcrumb-item">
+                <a href="/ru" data-adobe="content:homepage">На главную страницу</a>
+            </li>
+            <li class="breadcrumb-item active">Комплектации и цены</li>
+        </ol> -->
+  </body>
+
+  <script src="js/jquery-3.3.1.js"></script>
+  <script src="js/script.js"></script>
+  <!-- <script src="js/accordion.js"></script> -->
+</html>

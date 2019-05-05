@@ -1,0 +1,562 @@
+.title {
+  margin-top: 30px;
+  margin-bottom: 30px;
+  color: #131313;
+  font-size: 26px;
+  display: block;
+  text-align: center;
+}
+
+.title__name {
+  display: inline-block;
+  padding-bottom: 10px;
+  border-bottom: 3px solid #d72b2b;
+}
+
+.text {
+  line-height: 1.4;
+}
+@media only screen and (max-width: 1247px) {
+  .text {
+    text-align: center;
+  }
+}
+
+.banner {
+  max-width: 100%;
+  display: block;
+}
+
+.conference-svg {
+  display: none;
+}
+
+.conference-bg {
+  overflow: hidden;
+  background: url(../img/bg.jpg) no-repeat;
+  background-position: left top;
+  background-size: cover;
+}
+@media only screen and (max-width: 991px) {
+  .conference-bg {
+    background-position: -1200px top;
+  }
+}
+
+.conference-info {
+  padding: 50px 0;
+}
+
+.conference-invite {
+  margin: 0 auto;
+  width: 80%;
+}
+@media only screen and (max-width: 1247px) {
+  .conference-invite {
+    width: 100%;
+  }
+}
+.conference-invite span {
+  display: block;
+  font-weight: 900;
+}
+.conference-invite__items-container {
+  justify-content: space-between;
+  height: 250px;
+  display: flex;
+}
+@media only screen and (max-width: 991px) {
+  .conference-invite__items-container {
+    justify-content: space-around;
+    flex-wrap: wrap;
+    height: 400px;
+  }
+}
+@media only screen and (max-width: 399px) {
+  .conference-invite__items-container {
+    height: 480px;
+  }
+}
+.conference-invite__text-container {
+  line-height: 1.4;
+}
+.conference-invite__item {
+  justify-content: space-between;
+  align-items: center;
+  flex: 0 0 200px;
+  height: 140px;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+.conference-invite__item_flag {
+  margin-top: -50px;
+  flex: 0 0 380px;
+  height: auto;
+  display: block;
+}
+@media only screen and (max-width: 991px) {
+  .conference-invite__item_flag {
+    order: -1;
+    height: 280px;
+    flex: 0 0 100%;
+  }
+}
+@media only screen and (max-width: 767px) {
+  .conference-invite__item_flag {
+    height: auto;
+  }
+}
+.conference-invite__icon {
+  width: 150px;
+  fill: #d72b2b;
+}
+.conference-invite__date {
+  font-size: 40px;
+}
+.conference-invite__subdate {
+  font-size: 15px;
+}
+.conference-invite__flag {
+  left: 0;
+  z-index: 0;
+  max-width: 100%;
+  min-width: 320px;
+  position: absolute;
+}
+@media only screen and (max-width: 991px) {
+  .conference-invite__flag {
+    left: 50%;
+    transform: translateX(-50%);
+  }
+}
+@media only screen and (max-width: 767px) {
+  .conference-invite__flag {
+    display: none;
+  }
+}
+.conference-invite__flag-text {
+  padding-bottom: 20px;
+  margin: 20px auto;
+  z-index: 1;
+  width: 80%;
+  line-height: 1.4;
+  border-bottom: 1px solid;
+  font-size: 19px;
+  font-weight: bold;
+  position: relative;
+  color: #fff;
+}
+@media only screen and (max-width: 991px) {
+  .conference-invite__flag-text {
+    width: 50%;
+  }
+}
+@media only screen and (max-width: 767px) {
+  .conference-invite__flag-text {
+    width: auto;
+    color: #000;
+  }
+}
+.conference-invite__title {
+  z-index: 1;
+  font-size: 24px;
+  font-weight: 900;
+  text-transform: uppercase;
+  position: relative;
+  color: #fff;
+}
+@media only screen and (max-width: 767px) {
+  .conference-invite__title {
+    font-size: 20px;
+    color: #000;
+  }
+}
+@media only screen and (max-width: 480px) {
+  .conference-invite__flag-text,
+  .conference-invite__title {
+    font-size: 17px;
+  }
+}
+.conference-invite__city,
+.conference-invite__hotel,
+.conference-invite__link {
+  font-size: 16px;
+}
+.conference-invite__link {
+  color: #737373;
+}
+
+.conference-programm__title {
+  font-size: 20px;
+}
+
+.conference-programm__items-container {
+  justify-content: space-between;
+  padding: 20px 0;
+  border: 1px solid #adacac;
+  display: flex;
+}
+@media only screen and (max-width: 767px) {
+  .conference-programm__items-container {
+    flex-wrap: wrap;
+  }
+}
+
+.conference-programm__item {
+  flex: 0 0 50%;
+  text-align: center;
+}
+@media only screen and (max-width: 767px) {
+  .conference-programm__item {
+    flex: 0 0 100%;
+  }
+}
+
+.conference-programm__date {
+  font-weight: bold;
+  color: #737373;
+}
+
+.conference-programm__day {
+  font-size: 26px;
+  color: #000;
+}
+
+.conference-programm__disclaimer {
+  text-align: center;
+  font-size: 15px;
+  font-weight: 600;
+  font-style: italic;
+}
+
+.conference-terms {
+  margin-top: 70px;
+  padding: 0 100px;
+  position: relative;
+}
+@media only screen and (max-width: 767px) {
+  .conference-terms {
+    padding: 0;
+  }
+}
+.conference-terms__title {
+  font-size: 16px;
+}
+.conference-terms__title span {
+  font-style: italic;
+  border-color: #626262;
+}
+.conference-terms:before,
+.conference-terms:after {
+  content: "";
+  display: block;
+  position: absolute;
+  height: 100%;
+  width: 35px;
+  background: repeating-linear-gradient(
+    90deg,
+    #626262,
+    #626262 1px,
+    transparent 1px,
+    transparent 17px
+  );
+}
+@media only screen and (max-width: 767px) {
+  .conference-terms:before,
+  .conference-terms:after {
+    display: none;
+  }
+}
+.conference-terms:before {
+  top: 0;
+  left: 0;
+}
+.conference-terms:after {
+  top: 0;
+  right: 0;
+}
+
+.conference-form {
+  padding-top: 50px;
+  position: relative;
+}
+.conference-form__icon {
+  top: 0;
+  left: -11px;
+  width: 58px;
+  position: absolute;
+  fill: #d72b2b;
+}
+.conference-form__icon_right {
+  right: -11px;
+  left: auto;
+}
+.conference-form:before {
+  content: "";
+  display: block;
+  position: absolute;
+  left: -50%;
+  top: 0;
+  z-index: 0;
+  width: 200%;
+  height: 110%;
+  border-top: 1px solid #e7e8ea;
+  background: rgba(236, 236, 236, 0.4);
+}
+.conference-form__title {
+  z-index: 1;
+  text-align: center;
+  font-size: 20px;
+  position: relative;
+}
+.conference-form__items-container {
+  margin-top: 50px;
+  justify-content: space-between;
+  z-index: 1;
+  position: relative;
+  display: flex;
+}
+.conference-form__item_center {
+  display: flex;
+  align-items: center;
+}
+@media only screen and (max-width: 767px) {
+  .conference-form__items-container {
+    flex-wrap: wrap;
+  }
+}
+.conference-form__items-container_start-center {
+  justify-content: flex-start;
+  align-items: center;
+  flex-wrap: wrap;
+}
+@media only screen and (max-width: 991px) {
+  .conference-form__items-container_start-center {
+    flex-wrap: wrap;
+  }
+}
+.conference-form__items-container_margin {
+  margin: 20px;
+}
+.conference-form__item {
+  flex: 0 0 42%;
+}
+@media only screen and (max-width: 767px) {
+  .conference-form__item {
+    flex: 0 0 100%;
+  }
+}
+.conference-form__item_width {
+  padding-left: 6px;
+  padding-right: 20px;
+  flex: 0 0 auto;
+}
+@media only screen and (max-width: 767px) {
+  .conference-form__item_width {
+    flex: 0 0 100%;
+  }
+}
+.conference-form__item_full-width {
+  flex: 0 0 100%;
+}
+.conference-form__container {
+  justify-content: center;
+  position: relative;
+  display: flex;
+  flex-wrap: wrap;
+}
+.conference-form__container_inline {
+  display: inline-block;
+}
+.conference-form__items-container_start {
+  justify-content: flex-start;
+}
+.conference-form__type-input {
+  margin-top: 40px;
+  padding: 10px;
+  width: 100%;
+  border: none;
+  outline: none;
+  border-bottom: 2px solid #a7a7a7;
+  font-size: 16px;
+  background: transparent;
+  color: #000;
+}
+.conference-form__type-input::-webkit-input-placeholder {
+  color: #000 !important;
+}
+.conference-form__type-input:-moz-placeholder {
+  /* Firefox 18- */
+  color: #000 !important;
+}
+.conference-form__type-input::-moz-placeholder {
+  /* Firefox 19+ */
+  color: #000 !important;
+}
+.conference-form__type-input:-ms-input-placeholder {
+  color: #000 !important;
+}
+.conference-form__choose {
+  margin-top: calc(1em + 10px);
+  font-weight: 600;
+}
+.conference-form__size-btn {
+  margin: 0 6px;
+}
+.conference-form__size-btn_margin {
+  margin-left: 0;
+}
+.conference-form__size-btn_hidden {
+  position: absolute;
+  opacity: 0;
+}
+.conference-form__size {
+  margin-top: 10px;
+  width: 53px;
+  height: 40px;
+  line-height: 40px;
+  display: inline-block;
+  text-align: center;
+  font-size: 18px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background 0.3s linear;
+  background: #fff;
+  color: #000;
+}
+.conference-form__size-input {
+  display: none;
+}
+.conference-form__size-input:checked + .conference-form__size {
+  background: #d72b2b;
+  color: #fff;
+}
+.conference-form__request {
+  margin: 0;
+  padding: 20px 0;
+  text-align: center;
+  font-size: 15px;
+  font-weight: bold;
+  position: relative;
+}
+.conference-form__request span {
+  display: inline-block;
+  width: 75%;
+}
+.conference-form__request:before,
+.conference-form__request:after {
+  content: "";
+  display: block;
+  position: absolute;
+  width: 150px;
+  height: 1px;
+  background: #d72b2b;
+}
+@media only screen and (max-width: 1480px) {
+  .conference-form__request:before,
+  .conference-form__request:after {
+    width: 60px;
+  }
+}
+@media only screen and (max-width: 991px) {
+  .conference-form__request span {
+    width: 100%;
+  }
+  .conference-form__request:before,
+  .conference-form__request:after {
+    display: none;
+  }
+}
+.conference-form__request:before {
+  top: 50%;
+  transform: translateY(-50%);
+  left: 0;
+}
+.conference-form__request:after {
+  top: 50%;
+  transform: translateY(-50%);
+  right: 0;
+}
+.conference-form__comment {
+  padding: 20px;
+  width: 100%;
+  height: 200px;
+  border: 0;
+  outline: none;
+  resize: none;
+  box-sizing: border-box;
+  font-style: italic;
+  font-size: 16px;
+  box-shadow: inset 0 0 2px 0 rgba(0, 0, 0, 0.1);
+  background: #c1c1c1;
+  color: #fff;
+}
+.conference-form__comment::-webkit-input-placeholder {
+  color: #fff !important;
+}
+.conference-form__comment:-moz-placeholder {
+  /* Firefox 18- */
+  color: #fff !important;
+}
+.conference-form__comment::-moz-placeholder {
+  /* Firefox 19+ */
+  color: #fff !important;
+}
+.conference-form__comment:-ms-input-placeholder {
+  color: #fff !important;
+}
+.conference-form__disclaimer {
+  margin-top: 30px;
+  font-style: italic;
+}
+.conference-form__submit {
+  background: #d72b2b;
+  border: none;
+  color: #fff;
+  height: 44px;
+  padding: 0px 40px;
+  font-size: 18px;
+  margin: 40px auto;
+  display: block;
+  cursor: pointer;
+}
+
+.js-required {
+  position: absolute;
+  bottom: 0;
+  left: 6px;
+  font-size: 15px;
+  transform: translateY(120%);
+  color: #b73636;
+}
+.form-success {
+  display: block;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  left: 0;
+  top: 0;
+  background-color: #2d2d2d;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+  text-align: center;
+  opacity: 0;
+  transition: all 0.3s ease-out;
+}
+.form-success .form-text {
+  /* font-size: 20px; */
+  color: #ffffff;
+}
+.form-active {
+  z-index: 3;
+  opacity: 1;
+}

@@ -1,0 +1,23 @@
+// Шаблон компиляции svg-спрайтов
+
+.svg-quiz-icons {
+	@include center('y');
+	left: $svg-quiz-icons-left;
+	width: 1.5em;
+	height: 1.5em;
+	position: absolute;
+	display: inline-block;
+	fill: #ff0000;
+}
+
+// 
+// .icon-contract {
+// 	font-size:(512/10)*1rem;
+// 	width:(512/512)*1em;
+// }
+// 
+// .icon-credit-3 {
+// 	font-size:(512/10)*1rem;
+// 	width:(512/512)*1em;
+// }
+// 

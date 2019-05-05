@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/normalize.css" />
+    <link rel="stylesheet" href="css/grid-flex.css" />
+    <link rel="stylesheet" href="css/style.css" />
+</head>
+
+<body>
+    <xml version="1.0" encoding="utf-8"><svg xmlns="http://www.w3.org/2000/svg"
+            xmlns:xlink="http://www.w3.org/1999/xlink" class="conference-svg">
+            <symbol viewBox="0 0 485.213 485.212" id="calendar-with-a-clock-time-tools"
+                xmlns="http://www.w3.org/2000/svg">
+                <path
+                    d="M60.652 75.816V15.163C60.652 6.781 67.433 0 75.817 0c8.38 0 15.161 6.781 15.161 15.163v60.653c0 8.38-6.781 15.161-15.161 15.161-8.384.001-15.165-6.781-15.165-15.161zm257.772 15.162c8.378 0 15.163-6.781 15.163-15.161V15.163C333.587 6.781 326.802 0 318.424 0c-8.382 0-15.168 6.781-15.168 15.163v60.653c0 8.38 6.786 15.162 15.168 15.162zm166.788 272.928c0 66.996-54.312 121.307-121.303 121.307-66.986 0-121.302-54.311-121.302-121.307 0-66.986 54.315-121.3 121.302-121.3 66.991 0 121.303 54.313 121.303 121.3zm-30.322 0c0-50.161-40.81-90.976-90.98-90.976-50.166 0-90.976 40.814-90.976 90.976 0 50.171 40.81 90.98 90.976 90.98 50.17 0 90.98-40.809 90.98-90.98zM121.305 181.955H60.652v60.651h60.653v-60.651zM60.652 333.584h60.653V272.93H60.652v60.654zm90.977-90.978h60.654v-60.651h-60.654v60.651zm0 90.978h60.654V272.93h-60.654v60.654zM30.328 360.891V151.628H363.91v60.653h30.327V94c0-18.421-14.692-33.349-32.843-33.349h-12.647v15.166c0 16.701-13.596 30.325-30.322 30.325-16.731 0-30.326-13.624-30.326-30.325V60.651H106.14v15.166c0 16.701-13.593 30.325-30.322 30.325-16.733 0-30.327-13.624-30.327-30.325V60.651H32.859C14.707 60.651.001 75.579.001 94v266.892c0 18.36 14.706 33.346 32.858 33.346h179.424v-30.331H32.859c-1.374-.001-2.531-1.42-2.531-3.016zm272.928-118.285v-60.651h-60.648v60.651h60.648zm106.143 121.3h-45.49v-45.49c0-8.377-6.781-15.158-15.163-15.158s-15.159 6.781-15.159 15.158v60.658c0 8.378 6.777 15.163 15.159 15.163h60.653c8.382 0 15.163-6.785 15.163-15.163 0-8.382-6.781-15.168-15.163-15.168z" />
+            </symbol>
+            <symbol viewBox="0 0 297.796 297.796" id="placeholder" xmlns="http://www.w3.org/2000/svg">
+                <path
+                    d="M148.899 0C87.458 0 37.649 49.808 37.649 111.249c0 94.309 111.25 186.547 111.25 186.547s111.248-92.238 111.248-186.547C260.147 49.808 210.34 0 148.899 0zm-.001 203.762c-51.288 0-93.014-41.726-93.014-93.014s41.726-93.014 93.014-93.014 93.014 41.726 93.014 93.014-41.726 93.014-93.014 93.014z" />
+                <path
+                    d="M148.898 49.528c-33.757 0-61.22 27.463-61.22 61.22s27.463 61.22 61.22 61.22 61.22-27.463 61.22-61.22-27.463-61.22-61.22-61.22zm0 90.44c-16.137 0-29.22-13.083-29.22-29.22s13.083-29.22 29.22-29.22 29.22 13.083 29.22 29.22-13.083 29.22-29.22 29.22z" />
+            </symbol>
+            <symbol viewBox="0 0 321.188 321.188" id="ribbon" xmlns="http://www.w3.org/2000/svg">
+                <path d="M61.129 0v321.188l99.456-70.531 99.474 70.531V0z" />
+            </symbol>
+        </svg>
+
+        <h1 class="title"><span class="title__name">Конференция</span></h1>
+        <img src="img/banner_3.jpg" alt="" class="banner">
+
+        <div class="conference-bg">
+            <div class="container">
+                <div class="conference-info">
+                    <div class="conference-invite">
+                        <div class="conference-invite__items-container">
+                            <div class="conference-invite__item">
+                                <svg viewBox="0 0 30 10" xmlns="http://www.w3.org/2000/svg"
+                                    class="conference-invite__icon">
+                                    <use href="#calendar-with-a-clock-time-tools">
+                                </svg>
+                                <div class="conference-invite__text-container">
+                                    <span class="conference-invite__date">6 - 7</span>
+                                    <span class="conference-invite__subdate">февраля 2019 года</span>
+                                </div>
+                            </div>
+
+                            <div class="conference-invite__item conference-invite__item_flag">
+                                <img src="img/flag_big.png" alt="" class="conference-invite__flag">
+                                <p class="conference-invite__flag-text">Мы рады пригласить вас на первую конференцию
+                                    дилеров ISUZU D-Max</p>
+                                <h2 class="conference-invite__title">"Выбери свою стихию"</h2>
+                            </div>
+
+                            <div class="conference-invite__item">
+                                <svg viewBox="0 0 30 10" xmlns="http://www.w3.org/2000/svg"
+                                    class="conference-invite__icon">
+                                    <use href="#placeholder">
+                                </svg>
+                                <div class="conference-invite__text-container">
+                                    <span class="conference-invite__city">г. Ставрополь,</span>
+                                    <span class="conference-invite__hotel">Гостиница ЕВРООТЕЛЬ</span>
+                                    <span class="conference-invite__site"><a href="http://www.eurootel.ru/"
+                                            class="conference-invite__link">http://www.eurootel.ru/</a></span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="conference-programm">
+                        <h2 class="conference-programm__title content__title"><span>Программа конференции</span></h2>
+
+                        <div class="conference-programm__items-container">
+                            <div class="conference-programm__item">
+                                <p class="conference-programm__date"><span class="conference-programm__day">6</span>
+                                    февраля</p>
+                                <p class="conference-programm__text">конференция, ужин</p>
+                            </div>
+
+                            <div class="conference-programm__item">
+                                <p class="conference-programm__date"><span class="conference-programm__day">7</span>
+                                    февраля</p>
+                                <p class="text">посещение дилерского центра ИП Хропаль</p>
+                            </div>
+                        </div>
+
+                        <p class="conference-programm__disclaimer">Более подробная информация будет выслана в январе
+                            2019 года.</p>
+                    </div>
+
+                    <div class="conference-terms">
+                        <h2 class="conference-terms__title content__title"><span>Условия участия</span></h2>
+                        <p class="text">Компания АО «ИСУЗУ РУС» оплачивает проживание в гостинице Евроотель с 5 по 7
+                            февраля (2 ночи) на одного представителя от дилерского центра.</p>
+                    </div>
+                </div>
+
+                <form novalidate="novalidate" class="conference-form" id="conference-form">
+                    <svg viewBox="0 0 180 180" xmlns="http://www.w3.org/2000/svg" class="conference-form__icon">
+                        <use href="#ribbon">
+                    </svg>
+
+                    <h2 class="conference-form__title">Пройдите, пожалуйста, регистрацию:</h2>
+                    <div class="conference-form__items-container">
+                        <div class="conference-form__item">
+                            <div class="conference-form__container">
+                                <input class="conference-form__type-input" name="required[dealer]" type="text"
+                                    placeholder="Название дилерского центра" required="" aria-required="true"
+                                    autocomplete="off">
+                            </div>
+                            <div class="conference-form__container">
+                                <input class="conference-form__type-input" name="required[FIO]" type="text"
+                                    placeholder="ФИО" required="" aria-required="true" autocomplete="off">
+                            </div>
+                            <div class="conference-form__container">
+                                <input class="conference-form__type-input conference-form__phone" name="required[phone]"
+                                    type="text" placeholder="Контактный телефон" required="" aria-required="true"
+                                    autocomplete="off">
+                            </div>
+                        </div>
+                        <div class="conference-form__item">
+                            <div class="conference-form__container">
+                                <input class="conference-form__type-input" name="required[city]" type="text"
+                                    placeholder="Город" required="" aria-required="true" autocomplete="off">
+                            </div>
+                            <div class="conference-form__container">
+                                <input class="conference-form__type-input" name="required[appointment]" type="text"
+                                    placeholder="Должность" required="" aria-required="true" autocomplete="off">
+                            </div>
+                            <div class="conference-form__container">
+                                <input class="conference-form__type-input" name="required[mail]" type="text"
+                                    placeholder="Email" required="" aria-required="true" autocomplete="off">
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="conference-form__items-container conference-form__items-container_start">
+                        <div class="conference-form__item conference-form__item_width">
+                            <p class="conference-form__choose">Укажите, пожалуйста, размер футболки</p>
+                        </div>
+                        <div class="conference-form__item conference-form__item_center">
+                            <div class="conference-form__container conference-form__container_inline">
+                                <label class="conference-form__size-btn conference-form__size-btn_hidden">
+                                    <input type="radio" class="conference-form__size-input" name="required[size-choice]"
+                                        value="0" required="" aria-required="true" checked>
+                                </label>
+                                <label class="conference-form__size-btn">
+                                    <input type="radio" class="conference-form__size-input" name="required[size-choice]"
+                                        value="S" required="" aria-required="true">
+                                    <span class="conference-form__size">S</span>
+                                </label>
+                                <label class="conference-form__size-btn">
+                                    <input type="radio" class="conference-form__size-input" name="required[size-choice]"
+                                        value="M" required="" aria-required="true">
+                                    <span class="conference-form__size">M</span>
+                                </label>
+                                <label class="conference-form__size-btn">
+                                    <input type="radio" class="conference-form__size-input" name="required[size-choice]"
+                                        value="L" required="" aria-required="true">
+                                    <span class="conference-form__size">L</span>
+                                </label>
+                                <label class="conference-form__size-btn">
+                                    <input type="radio" class="conference-form__size-input" name="required[size-choice]"
+                                        value="XL" required="" aria-required="true">
+                                    <span class="conference-form__size">XL</span>
+                                </label>
+                                <label class="conference-form__size-btn">
+                                    <input type="radio" class="conference-form__size-input" name="required[size-choice]"
+                                        value="XXL" required="" aria-required="true">
+                                    <span class="conference-form__size">XXL</span>
+                                </label>
+                                <label class="conference-form__size-btn">
+                                    <input type="radio" class="conference-form__size-input" name="required[size-choice]"
+                                        value="XXXL" required="" aria-required="true">
+                                    <span class="conference-form__size">XXXL</span>
+                                </label>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="conference-form__items-container">
+                        <div class="conference-form__item conference-form__item_full-width">
+                            <p class="conference-form__request"><span>Большая просьба обозначить 3 вопроса, которые Вы
+                                    хотели бы обсудить в рабочих группах*</span></p>
+                            <div class="conference-form__container">
+                                <textarea class="conference-form__comment" name="required[comment]"
+                                    placeholder="Напишите Ваши предложения"></textarea>
+                            </div>
+                            <p class="conference-form__disclaimer">* пункт обязательный для заполнения</p>
+                        </div>
+                    </div>
+
+                    <div class="conference-form__items-container conference-form__items-container_margin">
+                        <button type="submit" class="conference-form__submit">Регистрация</button>
+                    </div>
+                    <div class="form-success">
+                        <p class="form-text">Ваша заявка успешно отправлена</p>
+                    </div>
+
+
+                    <svg viewBox="0 0 180 180" xmlns="http://www.w3.org/2000/svg"
+                        class="conference-form__icon conference-form__icon_right">
+                        <use href="#ribbon">
+                    </svg>
+                </form>
+            </div>
+        </div>
+</body>
+<script src="js/jquery-3.3.1.js"></script>
+<script src="js/inputmask.min.js"></script>
+<script src="js/script.js"></script>
+
+</html>
