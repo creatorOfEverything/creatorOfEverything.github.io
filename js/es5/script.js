@@ -37,7 +37,9 @@ function lazyLoad() {
     if (isInViewport(lazy[i])) {
       if (lazy[i].getAttribute("data-src")) {
         lazy[i].src = lazy[i].getAttribute("data-src");
-        lazy[i].classList.add("img-loaded-js");
+        lazy[i].onload = function() {
+          this.classList.add("img-loaded-js");
+        };
         lazy[i].removeAttribute("data-src");
       }
     }
