@@ -1,0 +1,18 @@
+// Шаблон компиляции svg-спрайтов
+
+.svg-quiz-icons {
+	@include center('y');
+	left: $svg-quiz-icons-left;
+	width: 1.5em;
+	height: 1.5em;
+	position: absolute;
+	display: inline-block;
+	fill: #ff0000;
+}
+
+// {{#shapes}}
+// .icon-{{base}} {
+// 	font-size:({{height.inner}}/10)*1rem;
+// 	width:({{width.inner}}/{{height.inner}})*1em;
+// }
+// {{/shapes}}
