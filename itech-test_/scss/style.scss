@@ -1,0 +1,16 @@
+@import "fontawesome/fontawesome";
+@import "fontawesome/solid";
+// @import "fontawesome/brands";
+
+@import "helpers/_variables";
+@import "helpers/_mixins";
+@import "helpers/_functions";
+
+@import "fonts";
+@import "normalize";
+
+@import "bootstrap";
+@import "../node_modules/slick-carousel/slick/slick.scss";
+@import "../node_modules/magnific-popup/src/css/main.scss";
+
+@import "main";

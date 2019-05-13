@@ -1,0 +1,33 @@
+// Шаблон компиляции svg-спрайтов
+
+.svg-quiz-icons {
+	@include center('y');
+	left: $svg-quiz-icons-left;
+	width: 1.5em;
+	height: 1.5em;
+	position: absolute;
+	display: inline-block;
+	fill: #ff0000;
+}
+
+// 
+// .icon-google-plus-logo {
+// 	font-size:(96.827/10)*1rem;
+// 	width:(96.828/96.827)*1em;
+// }
+// 
+// .icon-icons8-facebook-f {
+// 	font-size:(24/10)*1rem;
+// 	width:(24/24)*1em;
+// }
+// 
+// .icon-linkedin-in-brands {
+// 	font-size:(512/10)*1rem;
+// 	width:(448/512)*1em;
+// }
+// 
+// .icon-rss-solid {
+// 	font-size:(512/10)*1rem;
+// 	width:(448/512)*1em;
+// }
+// 
